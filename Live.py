@@ -11,5 +11,12 @@ def load_game():
     2. Guess Game - guess a number and see if you chose like the computer
     3. Currency Roulette - try and guess the value of a random amount of USD in ILS 
     """
-    game = input(msg)
-    difficulty = input("Please choose game difficulty from 1 to 5:")
+    game = int(input(msg))
+
+    if game < 1 or game > 3:
+        exit(1)
+
+    difficulty = int(input("Please choose game difficulty from 1 to 5:"))
+
+    if difficulty < 1 or difficulty > 5:
+        exit(2)
