@@ -4,7 +4,7 @@ import random
 # - Will generate number between 1 to difficulty and save it to secret_number.
 def generate_number(upper_limit):
     x = random.randint(1, upper_limit)
-    print(x)
+    #print(x)
     return x
 
 
@@ -13,7 +13,7 @@ def get_guess_from_user(upper_limit):
     return int(input(f"Enter a number between 1 and {upper_limit}: "))
 
 
-# - Will compare the the secret generated number to the one prompted by the get_guess_from_user.
+# - Will compare the secret generated number to the one prompted by the get_guess_from_user.
 def compare_results(user_number, random_number):
     return user_number == random_number
 
@@ -25,4 +25,4 @@ def play(difficulty):
     return compare_results(user_number, random_number)
 
 
-print(play(7))
+#print(play(7))

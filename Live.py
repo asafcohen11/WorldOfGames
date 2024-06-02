@@ -1,3 +1,4 @@
+import GuessGame, MemoryGame
 def welcome(name):
     msg = f"""Hello {name} and welcome to the World Of Games (WoG).
     Here you can find many cool games to play"""
@@ -14,9 +15,19 @@ def load_game():
     game = int(input(msg))
 
     if game < 1 or game > 3:
+        input("Invalid option! Valid options are 1, 2 or 3. \nClick any key to exit.")
         exit(1)
 
     difficulty = int(input("Please choose game difficulty from 1 to 5:"))
 
     if difficulty < 1 or difficulty > 5:
+        input("Invalid option! Should be 1 to 5. \nClick any key to exit.")
         exit(2)
+
+    if game == 1:
+        print(MemoryGame.play(difficulty))
+    elif game == 2:
+        print(GuessGame.play(difficulty))
+    elif game == 3:
+        print("TBD")
+
