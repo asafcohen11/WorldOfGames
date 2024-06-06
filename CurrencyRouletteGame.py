@@ -1,15 +1,42 @@
-"""This game will use the free currency api to get the current exchange rate from USD to ILS, will
-generate a new random number between 1-100 a will ask the user what he thinks is the value of
-the generated number from USD to ILS, depending on the user’s difficulty his answer will be
-correct if the guessed value is between the interval surrounding the correct answer
-Properties
-1. Difficulty
-Methods
-1. get_money_interval -Will get the current currency rate from USD to ILS and will
-generate an interval as follows:
-a. for given difficulty d, and total value of money t the interval will be: (t - (5 - d), t +
-(5 - d))
-2. get_guess_from_user - A method to prompt a guess from the user to enter a guess of
-value to a given amount of USD
-3. play - Will call the functions above and play the game. Will return True / False if the user
-lost or won."""
+import random, requests
+
+def generate_random():
+    return random.randint(1, 101)
+
+
+def get_currency_rate():
+    url = "https://api.exchangerate-api.com/v4/latest/USD"
+    response = requests.get(url, verify=False)
+    print(f'response is {response}')
+    rate = response.json()['rates']['ILS']
+    print (f'Rate is {rate}')
+    return rate
+
+
+def get_money_interval(num, usd_amount):
+    print(f'Ramdom number is {usd_amount}')
+    rate = get_currency_rate()
+    ils = rate * usd_amount
+    offset = 5 - num
+    print(f"Offset {offset}" )
+    return ils - offset, ils + offset
+
+
+def get_guess_from_user(num):
+    number = int(input(f"Who much are {num} USD in ILS? "))
+    return number
+
+
+def play(num):
+    usd_amount = generate_random()
+    min_interval, max_interval = get_money_interval(num, usd_amount)
+    print(f'min interval = {min_interval}, max interval = {max_interval}')
+    num_from_user = get_guess_from_user(usd_amount)
+    if min_interval <= num_from_user <= max_interval:
+        print("You guessed right, you won the game")
+    else:
+        print("You guessed wrong, you lost the game")
+    return 0
+
+
+#3play(2)

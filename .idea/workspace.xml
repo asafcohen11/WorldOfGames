@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8cfb5b8-3e40-4273-b0ea-4b5c06d20088" name="Changes" comment="guess game">
+    <list default="true" id="b8cfb5b8-3e40-4273-b0ea-4b5c06d20088" name="Changes" comment="adding currency roulette game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GuessGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/GuessGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyRouletteGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyRouletteGame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Live.py" beforeDir="false" afterPath="$PROJECT_DIR$/Live.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.GuessGame.executor": "Run",
-    "Python.Live.executor": "Run",
-    "Python.MainGame.executor": "Run",
-    "Python.MemoryGame.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.CurrencyRouletteGame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GuessGame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Live.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MainGame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MemoryGame.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MainGame" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="WorldOfGames" />
@@ -113,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716994902793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="memory game">
+      <option name="closed" value="true" />
+      <created>1717338162153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717338162153</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding currency roulette game">
+      <option name="closed" value="true" />
+      <created>1717338287422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717338287422</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +146,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="most of task 1" />
     <MESSAGE value="guess game" />
-    <option name="LAST_COMMIT_MESSAGE" value="guess game" />
+    <MESSAGE value="memory game" />
+    <MESSAGE value="adding currency roulette game" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding currency roulette game" />
   </component>
 </project>

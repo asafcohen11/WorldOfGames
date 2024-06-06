@@ -1,4 +1,4 @@
-import GuessGame, MemoryGame
+import GuessGame, MemoryGame, CurrencyRouletteGame
 def welcome(name):
     msg = f"""Hello {name} and welcome to the World Of Games (WoG).
     Here you can find many cool games to play"""
@@ -29,5 +29,5 @@ def load_game():
     elif game == 2:
         print(GuessGame.play(difficulty))
     elif game == 3:
-        print("TBD")
+        print(CurrencyRouletteGame.play(difficulty))
 
