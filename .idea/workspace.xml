@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8cfb5b8-3e40-4273-b0ea-4b5c06d20088" name="Changes" comment="docker files" />
+    <list default="true" id="b8cfb5b8-3e40-4273-b0ea-4b5c06d20088" name="Changes" comment="workspace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718618404290</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1718618555370</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718618555370</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +190,7 @@
     <MESSAGE value="updating currency roulette game" />
     <MESSAGE value="new code" />
     <MESSAGE value="docker files" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker files" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>
