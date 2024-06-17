@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8cfb5b8-3e40-4273-b0ea-4b5c06d20088" name="Changes" comment="new code">
-      <change afterPath="$PROJECT_DIR$/Scores.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyRouletteGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyRouletteGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GuessGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/GuessGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Live.py" beforeDir="false" afterPath="$PROJECT_DIR$/Live.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="b8cfb5b8-3e40-4273-b0ea-4b5c06d20088" name="Changes" comment="docker files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.CurrencyRouletteGame.executor": "Run",
     "Python.GuessGame.executor": "Run",
     "Python.Live.executor": "Run",
@@ -150,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718615133202</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="docker files">
+      <option name="closed" value="true" />
+      <created>1718617610882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718617610882</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,12 +166,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="most of task 1" />
     <MESSAGE value="guess game" />
     <MESSAGE value="memory game" />
     <MESSAGE value="adding currency roulette game" />
     <MESSAGE value="updating currency roulette game" />
     <MESSAGE value="new code" />
-    <option name="LAST_COMMIT_MESSAGE" value="new code" />
+    <MESSAGE value="docker files" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker files" />
   </component>
 </project>
