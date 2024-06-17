@@ -1,4 +1,5 @@
 import random, time
+
 """
 generate_sequence - Will generate a list of random numbers between 1 to 101. The list
 length will be difficulty.
@@ -9,6 +10,7 @@ True / False.
 4. play - Will call the functions above and play the game. Will return True / False if the user
 lost or won
 """
+
 
 def generate_sequence(num):
     return [random.randint(1, 101) for _ in range(num)]
@@ -37,4 +39,4 @@ def play(num):
     user_list = get_list_from_user(num)
     return s_list_equal(generated_list, user_list)
 
-#print(play(3))
+# print(play(3))
