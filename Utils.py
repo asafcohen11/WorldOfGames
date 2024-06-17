@@ -8,7 +8,7 @@ for our game.
 before a new game starts)."""
 
 SCORES_FILE_NAME = "Scores.txt"
-BAD_RETURN_CODE = ""
+BAD_RETURN_CODE = -1
 
 
 def screen_cleaner():
@@ -20,5 +20,4 @@ def screen_cleaner():
         os.system('clear')
 
 
-input("clear screen")
 screen_cleaner()

@@ -25,4 +25,4 @@ def play(difficulty):
     return compare_results(user_number, random_number)
 
 
-#print(play(7))
+#print(play(3))

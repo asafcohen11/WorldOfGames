@@ -33,9 +33,11 @@ def play(num):
     #print(f'min interval = {min_interval}, max interval = {max_interval}')
     num_from_user = get_guess_from_user(usd_amount)
     if min_interval <= num_from_user <= max_interval:
-        return "You guessed right, you won the game"
+        print("You guessed right, you won the game")
+        return True
     else:
-        return "You guessed wrong, you lost the game"
+        print("You guessed wrong, you lost the game")
+        return False
 
 
 
